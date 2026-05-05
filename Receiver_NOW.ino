@@ -5,7 +5,7 @@
 Preferences pref;
 
 const int NUM_RELAYS = 7;
-int relayPins[NUM_RELAYS] = { 2, 4, 5, 18, 19, 23, 25 };
+int relayPins[NUM_RELAYS] = { 18, 19, 22, 23, 21, 4, 15 };
 
 bool relayState[NUM_RELAYS] = {0};
 
