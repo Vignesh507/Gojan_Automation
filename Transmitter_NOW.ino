@@ -13,8 +13,8 @@ XPT2046_Touchscreen ts(21);
 #define NUM_DEVICES 2
 
 const char* switchNames[NUM_DEVICES][NUM_SWITCHES] = {
-  { "Light", "Fan", "none", "none", "Plug 1", "Plug 2", "none" },   
-  { "Light 1", "Light 2", "Fan", "Lamp", "Plug", "none", "none" } 
+  { "Light", "Fan", "Projector", "Socket", "Plug 1", "Plug 2", "none" },   
+  { "Light L", "Light R", "L Focus", "R Focus", "Front Fan", "Socket", "none" } 
 };
 
 uint8_t macList[NUM_DEVICES][6] = {
